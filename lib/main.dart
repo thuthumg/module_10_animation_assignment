@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:module_10_animation_assignment/home_page.dart';
 
-import 'detail_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:DetailPage(),
+      home:HomePage(),
     );
   }
 }
